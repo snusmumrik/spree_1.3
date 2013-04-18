@@ -1266,3 +1266,5 @@ ja:
   remove_authentication_option_confirmation: "このソーシャルメディアからログアウトしますか？"
   sign_in_with: "ログイン"
   please_confirm_your_email: "メールアドレスを入力してください"
+
+  recently_viewed_products: '最近見た商品'
