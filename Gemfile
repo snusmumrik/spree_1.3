@@ -44,3 +44,4 @@ gem 'spree_i18n', :git => 'git://github.com/spree/spree_i18n.git'
 gem 'spree_social', :git => 'git://github.com/spree/spree_social.git', :branch => '1-3-stable'
 gem 'spree_recently_viewed', :git => 'git://github.com/spree/spree_recently_viewed.git'
 gem 'spree_related_products', :git => 'git://github.com/spree/spree_related_products.git', :branch => "1-3-stable"
+gem 'spree_paypal_express', :git => 'git://github.com/spree/spree_paypal_express.git', :branch => "1-3-stable"
