@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130418042732) do
+ActiveRecord::Schema.define(:version => 20130418142760) do
 
   create_table "spree_activators", :force => true do |t|
     t.string   "description"
@@ -272,6 +272,13 @@ ActiveRecord::Schema.define(:version => 20130418042732) do
     t.string   "identifier"
   end
 
+  create_table "spree_paypal_accounts", :force => true do |t|
+    t.string "email"
+    t.string "payer_id"
+    t.string "payer_country"
+    t.string "payer_status"
+  end
+
   create_table "spree_preferences", :force => true do |t|
     t.text     "value"
     t.string   "key"
@@ -392,6 +399,25 @@ ActiveRecord::Schema.define(:version => 20130418042732) do
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "spree_relation_types", :force => true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.string   "applies_to"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "spree_relations", :force => true do |t|
+    t.integer  "relation_type_id"
+    t.integer  "relatable_id"
+    t.string   "relatable_type"
+    t.integer  "related_to_id"
+    t.string   "related_to_type"
+    t.datetime "created_at",                                                      :null => false
+    t.datetime "updated_at",                                                      :null => false
+    t.decimal  "discount_amount",  :precision => 8, :scale => 2, :default => 0.0
   end
 
   create_table "spree_return_authorizations", :force => true do |t|

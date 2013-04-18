@@ -43,3 +43,4 @@ gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => '1-3-s
 gem 'spree_i18n', :git => 'git://github.com/spree/spree_i18n.git'
 gem 'spree_social', :git => 'git://github.com/spree/spree_social.git', :branch => '1-3-stable'
 gem 'spree_recently_viewed', :git => 'git://github.com/spree/spree_recently_viewed.git'
+gem 'spree_related_products', :git => 'git://github.com/spree/spree_related_products.git', :branch => "1-3-stable"

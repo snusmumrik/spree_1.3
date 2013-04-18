@@ -240,11 +240,11 @@ ja:
   adjustments: "調整（値引き・追加料金）"
   admin:
     mail_methods:
-      send_testmail: 'テストメール送信'
+      send_testmail: "テストメール送信"
       testmail:
-        delivery_error: 'テストメール送信エラー'
-        delivery_success: 'テストメールが正しく送信されました。'
-        error: 'テストメールエラー: %{e}'
+        delivery_error: "テストメール送信エラー"
+        delivery_success: "テストメールが正しく送信されました。"
+        error: "テストメールエラー: %{e}"
   administration: "管理"
   all: "全て"
   all_departments: "全てのカテゴリ"
@@ -1106,8 +1106,8 @@ ja:
   spree:
     date: "日付"
     date_picker:
-      format: ! '%Y/%m/%d'
-      js_format: 'yy/mm/dd'
+      format: ! "%Y/%m/%d"
+      js_format: "yy/mm/dd"
     time: "時間"
   spree_alert_checking: "Spreeのセキュリティ・リリースアラートをチェックする"
   spree_alert_not_checking: "Spreeのセキュリティ・リリースアラートをチェックしない"
@@ -1159,9 +1159,9 @@ ja:
   test: "テスト"
   test_mailer:
     test_email:
-      greeting: 'おめでとうございます！'
-      message: 'もしこのメールを受け取ったのなら、あなたのメール設定は正しいです。'
-      subject: 'テストメール'
+      greeting: "おめでとうございます！"
+      message: "もしこのメールを受け取ったのなら、あなたのメール設定は正しいです。"
+      subject: "テストメール"
   test_mode: "テストモード"
   thank_you_for_your_order: "ご注文ありがとうございます。この確認画面を控えとして印刷してください。"
   there_were_problems_with_the_following_fields: "以下の入力欄で問題がありました"
@@ -1267,4 +1267,12 @@ ja:
   sign_in_with: "ログイン"
   please_confirm_your_email: "メールアドレスを入力してください"
 
-  recently_viewed_products: '最近見た商品'
+  recently_viewed_products: "最近見た商品"
+
+  related_products: "関連商品"
+  no_relation_types: "関連商品はありません"
+  relation_types: "リレーションタイプ"
+  manage_relation_types: "リレーションタイプの管理"
+  new_relation_type: "新規リレーションタイプ"
+  editing_relation_type: "リレーションタイプの編集"
+  applies_to: "対象"
