@@ -1240,3 +1240,29 @@ ja:
       previous: "&lsaquo; 前"
       next: "次 &rsaquo;"
       truncate: "&hellip;"
+
+#########
+# Custom
+#########
+  top: "トップ"
+
+  views:
+    pagination:
+      previous: "前"
+      next: "次"
+      first: "最初"
+      last: "最後"
+
+  social_authentication_methods: "ソーシャル認証"
+  social_authentication_methods_description: "ソーシャルメディアアカウントによる認証管理"
+  new_social_method: "新規ソーシャル認証"
+  edit_social_method: "ソーシャル認証の編集"
+  social_provider: "ソーシャルメディア"
+  social_api_key: "API Key"
+  social_api_secret: "API Secret"
+  sign_in_through_one_of_these_services: "ほかのソーシャルメディアでログインしますか？"
+  you_have_signed_in_with_these_services: "以下のソーシャルメディアでログインしています"
+  add_another_service_to_sign_in_with: "ほかのソーシャルメディアでもログインしますか？"
+  remove_authentication_option_confirmation: "このソーシャルメディアからログアウトしますか？"
+  sign_in_with: "ログイン"
+  please_confirm_your_email: "メールアドレスを入力してください"
