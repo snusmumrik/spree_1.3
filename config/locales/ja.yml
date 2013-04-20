@@ -1121,7 +1121,7 @@ ja:
   ssl_will_not_be_used_in_staging_mode: "ステージングモードではSSLが使用されません"
   start: "始め"
   start_date: "有効開始日付"
-  state: "都道府県（州）"
+  state: "都道府県"
   state_based: "都道府県(州)による区別"
   state_setting_description: "各国の都道府県(州)を管理する"
   states: "都道府県（州）"

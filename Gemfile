@@ -45,3 +45,4 @@ gem 'spree_social', :git => 'git://github.com/spree/spree_social.git', :branch =
 gem 'spree_recently_viewed', :git => 'git://github.com/spree/spree_recently_viewed.git'
 gem 'spree_related_products', :git => 'git://github.com/spree/spree_related_products.git', :branch => "1-3-stable"
 gem 'spree_paypal_express', :git => 'git://github.com/spree/spree_paypal_express.git', :branch => "1-3-stable"
+gem 'spree_cash_on_delivery', :git => 'git://github.com/five18pm/spree-cash-on-delivery.git'
