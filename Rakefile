@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-MiyakojimafruitsCom::Application.load_tasks
+SpreeCom::Application.load_tasks

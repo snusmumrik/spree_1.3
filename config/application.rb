@@ -9,7 +9,7 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
-module MiyakojimafruitsCom
+module SpreeCom
   class Application < Rails::Application
     
     config.to_prepare do
