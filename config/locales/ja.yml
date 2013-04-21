@@ -1267,6 +1267,11 @@ ja:
   sign_in_with: "ログイン"
   please_confirm_your_email: "メールアドレスを入力してください"
 
+  social_sharing_buttons: "ソーシャルシェアリング"
+  social_sharing_settings_description: "ソーシャルメディア設定"
+  social_sharing_settings_updated: "ソーシャルシェアリングの設定を更新しました"
+  bookmark_or_share_this: ""
+
   recently_viewed_products: "最近見た商品"
 
   related_products: "関連商品"
