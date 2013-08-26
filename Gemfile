@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13'
+gem 'rails', '3.2.14'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -40,10 +40,9 @@ gem 'jquery-rails'
 gem 'spree', '1.3.2'
 gem 'spree_gateway', :github => 'spree/spree_gateway', :branch => '1-3-stable'
 gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => '1-3-stable'
-gem 'spree_i18n', :git => 'git://github.com/spree/spree_i18n.git'
+gem 'spree_i18n', :git => 'git://github.com/spree/spree_i18n.git', :branch => '1-3-stable'
 gem 'spree_social', :git => 'git://github.com/spree/spree_social.git', :branch => '1-3-stable'
-gem "spree_social_products", :git => "git://github.com/spree/spree_social_products.git"
+gem "spree_social_products", :git => "git://github.com/spree/spree_social_products.git", :branch => '1-3-stable'
 gem 'spree_recently_viewed', :git => 'git://github.com/spree/spree_recently_viewed.git'
 gem 'spree_related_products', :git => 'git://github.com/spree/spree_related_products.git', :branch => "1-3-stable"
 gem 'spree_paypal_express', :git => 'git://github.com/spree/spree_paypal_express.git', :branch => "1-3-stable"
-gem 'spree_cash_on_delivery', :git => 'git://github.com/five18pm/spree-cash-on-delivery.git'
