@@ -12,3 +12,7 @@
  *= require store/spree_social
  *= require store/spree_social_products
 */
+
+footer p.center {
+    text-align: center;
+}
