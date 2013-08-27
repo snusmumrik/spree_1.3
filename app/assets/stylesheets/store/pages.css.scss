@@ -1,0 +1,68 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.pages {
+    margin: 0 10%;
+}
+
+dd {
+    margin-left: 30px !important;
+    width: 85% !important;
+}
+
+.featurette-image {   
+    border:1px solid #bfbfbf;
+    padding:5px;
+    background-color:#ffffff;
+}
+
+.carousel-inner {
+    /* position: relative;
+     * width: 100%;
+     * overflow: hidden; */
+    height: 500px !important;
+}
+
+.carousel-caption {
+    /* background-color: rgba(255,255,255,0.3) !important; */
+    position: static;
+    max-width: 550px;
+    padding: 0 50px !important;
+    margin-top: 10% !important;
+    h1, .lead {
+        margin: 0;
+        line-height: 1.25;
+        color: #fff;
+        /* text-shadow:0 0 5px rgba(0,0,0,0.7), 0 0 40px rgba(0,0,0,0.7), 0 0 60px rgba(0,0,0,0.7), 0 0 100px rgba(0,0,0,0.7), 0 0 120px rgba(0,0,0,0.7) !important; */
+        text-shadow: 0 5px 5px rgba(0,0,0,0.6) !important;
+    }
+}
+
+.carousel .item {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fb-like {
+    margin: 10px 0;
+}
+
+.marketing .span4 p {
+    /* margin-left: 10px;
+     * margin-right: 10px; */
+    text-align: left !important;
+}
+
+.lead {
+    /* margin-bottom: 20px;
+     * font-size: 21px;
+     * font-weight: 200;
+     * line-height: 30px; */
+    text-align: left !important;
+}
+
+footer {
+    text-align: center;
+}

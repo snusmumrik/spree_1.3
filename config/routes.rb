@@ -1,4 +1,10 @@
 SpreeCom::Application.routes.draw do
+  root :to => 'pages#about_us'
+
+  resources :pages
+  match "about_us", :to => "pages#about_us"
+  match "terms", :to => "pages#terms"
+  match "privacy", :to => "pages#privacy"
 
   # This line mounts Spree's routes at the root of your application.
   # This means, any requests to URLs such as /products, will go to Spree::ProductsController.
