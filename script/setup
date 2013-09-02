@@ -3,7 +3,6 @@ cp config/database.yml.sample config/database.yml
 cp config/environments/production.rb.sample config/environments/production.rb
 cp config/initializers/devise.rb.sample config/initializers/devise.rb
 cp config/initializers/secret_token.rb.sample config/initializers/secret_token.rb
-cp config/initializers/session_store.rb.sample config/initializers/session_store.rb
 
 # change application name
 
@@ -14,13 +13,13 @@ filepath=`pwd`
 dir_name=`basename ${filepath}`
 
 # change database.yml
-default_db_name="rails3"
+default_db_name="spree"
 ruby -pi -e "gsub(/${default_db_name}/, '${dir_name}')" config/database.yml
 echo "database.yml has been rewritted to ${dir_name}"
 
 echo "Enter new application name: "
 read application_name
-default_name="Rails3"
+default_name="SpreeCom"
 echo "The application name is being changed to '${application_name}'..."
 
 echo "Enter MySQL password: "
